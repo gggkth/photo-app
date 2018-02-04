@@ -1,7 +1,7 @@
 /*global $*/
 /*global Stripe*/
 
-$(document).ready('ready turbolinks:load', function() {
+$(document).ready(function() {
   
   var show_error, stripeResponseHandler, submitHandler;
   
